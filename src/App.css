@@ -1,0 +1,45 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+/* #site-content{
+  margin-bottom: 23em;
+} */
+
+nav{
+background : radial-gradient(circle farthest-side at right bottom, #E7B02F 5%,#e98c26 25%,#eb681e 80%,#ed561a 100%)
+}
+
+.navbar{
+  margin-bottom: 0;
+  border-radius: 0;
+}
+
+.price-list-container li{
+  font-size:0.9em;
+}

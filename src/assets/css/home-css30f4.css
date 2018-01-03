@@ -1,0 +1,352 @@
+section#top-banner.show-for-large-up{
+    position: relative;
+    min-height: 100vh;
+    background-image: url(../img/limetray-hm-banner.jpg);
+    background-size: 115%;
+    background-position: top left 88%;
+}
+section#top-banner-medium.show-for-medium-only {
+    position: relative;
+    min-height: 100vh;
+    background-image: url(../img/limetray-hm-banner.jpg);
+    background-size: cover;
+    background-position: top left 88%;
+}
+section#top-banner-small {
+position: relative;
+    min-height: 100vh;
+    height: 100vh;
+    max-height: 100vh;
+    background-image: url(../img/limetray-hm-banner.jpg);
+    background-size: cover;
+    background-position: top left 60%;
+}  
+section#first-section {
+    background: #f7f7f7;
+}
+/*second section*/
+section#second-section{
+	min-height: 100vh;    background: #f7f7f7;
+}
+section#second-section ul li img {    
+    margin: auto;
+    width: 5rem;
+}
+section#second-section ul li p {
+    margin: 10px auto 0;
+    display: block;
+}
+section#second-section ul li p span {
+    display: inline-block;
+    margin-bottom: 10px;
+    
+}
+section#second-section ul li{
+	margin: 3% 0;
+}
+/*third  section*/
+section#third-section{
+padding: 0!important;
+}
+#third-section-a .row{
+	max-width: 100%!important;
+}
+#third-section-a{
+    padding: 3% 8%;
+}
+div#third-section-d {
+    background: #f7f7f7;
+}
+div#third-section-a .item img {
+    width: 15rem;transition: ease all 0.5s;
+    -webkit-filter: grayscale(1);
+    cursor: pointer;
+
+}
+div#third-section-a .item:hover img {
+    transition: ease all 0.5s;
+    -webkit-filter: grayscale(0);
+}
+div#owl-clients {
+    margin: 3rem 0 0;
+}
+/*
+#third-section-a ul>li {
+    padding: 2rem 0;
+}
+#third-section-a ul>li img {
+    transition: ease all 0.5s;
+    -webkit-filter: grayscale(1);
+    cursor: pointer;
+}
+*/
+
+/*-------------------Ecosystem -------------------*/
+.eco-svg svg {
+    height: auto!important;
+    width: 100%!important;
+}
+.eco-svg {
+    position: relative;
+    display: inline-block;
+    width: 88%;
+    margin: 6% 0;
+    transition: ease all 0.8s;
+}
+.eco-sys-left {/*
+    position: absolute;
+    top: 5%;
+    right: -45%;
+    width: 70%;
+    height: 100%;
+    padding: 3% 0 0 15%;
+    background: url(../img/limetray-eco-bg.png);
+    background-size: 88%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    z-index: -1;
+    overflow: hidden;
+    transition: ease all 0.8s;*/
+    font-size: 1rem;
+    padding: 1.5rem 5%;
+    position: absolute;
+    top: 0;
+    right: -85%;
+    width: 75%;
+    height: 100%;
+    opacity: 0;
+    /* padding: 3% 15% 0 0; */
+    /* background: url(../img/limetray-eco-bg.png); */
+    /* background-size: 80% 100%; */
+    /* background-position: center center; */
+    /* background-repeat: no-repeat; */
+    z-index: -1;
+    transition: ease all 0.6s;
+}
+.eco-sys-right {
+    font-size: 1rem;
+    padding: 1.5rem 5%;
+    position: absolute;
+    top: 0;
+    left: -85%;
+    width: 75%;
+    height: 100%;
+    opacity: 0;
+    /* padding: 3% 15% 0 0; */
+    /* background: url(../img/limetray-eco-bg.png); */
+    /* background-size: 80% 100%; */
+    /* background-position: center center; */
+    /* background-repeat: no-repeat; */
+    z-index: -1;
+    transition: ease all 0.6s;
+}
+.eco-sys-right>div, .eco-sys-left>div{
+    display: block;
+    background: #f8f8f8;
+    padding: 0.5rem 1.75rem;
+    box-shadow: 0 0 25px -5px #ccc;
+    border-radius: 30px;
+}
+
+.eco-svg>.text-left{
+    position: absolute;
+    width: 49%;
+    border-radius: 5rem 0 0 5rem;
+    overflow: hidden;
+    transition: ease all 0.8s;
+}
+.eco-svg>.text-right{
+    position: absolute;
+    width: 53%;
+    border-radius: 0 5rem 5rem 0;
+    overflow: hidden;
+    transition: ease all 0.8s;
+}
+.eco-sys-line {
+    top: -6%;
+    right: -2%;
+}
+.eco-sys-drive {
+    top: 16%;
+    right: -23%;
+}
+.eco-sys-ace {
+    top: 43%;
+    right: -31%;
+}
+.eco-sys-merge {
+    top: 66%;
+    right: -21%;
+}
+.eco-sys-point {
+    top: 83%;
+    right: -2%;
+}
+.eco-sys-tap {
+    left: -15%;
+    top: -6%;
+}
+.eco-sys-pulse {
+    left: 7%;
+    top: 13%;
+}
+.eco-sys-marketing {
+    left: -29%;
+    top: 27%;
+}
+.eco-sys-click {
+    left: -35%;
+    top: 47%;
+}
+.eco-sys-dine {
+    left: -21%;
+    top: 64%;
+}
+.eco-sys-reach {
+    left: -7%;
+    top: 86%;
+}
+.eco-svg .text-left a, .eco-svg .text-right a {
+    display: inline-block;
+    width: 7rem;
+    height: 7rem;
+    background: #f7f7f7;
+    border: 2px solid #fff;
+    border-radius: 100%;
+    box-shadow: 0 0 12px 0px rgb(204, 204, 204);
+    margin: 8px;
+    transition: ease all 0.3s;
+}
+.eco-svg .text-left a img, .eco-svg .text-right a img {
+    width: 50%;
+    margin: 10% auto 2%;
+    display: block;
+}
+.eco-svg .text-left a:hover + .eco-sys-right{
+    left: 20%;
+    opacity: 1;
+    transition: ease all 0.6s;
+}
+.eco-svg .text-right a:hover + .eco-sys-left{
+    right: 20%;
+    opacity: 1;
+    transition: ease all 0.6s;
+}
+.eco-sys-line.text-left.active>a, .eco-svg .text-left a:hover, .eco-svg .text-right a:hover {
+    background: #6da942;
+    transition: ease all 0.3s;
+    box-shadow: 0 0 0px 0px rgb(204, 204, 204);
+    margin: 0px;
+    color: #fff;
+}
+ .eco-sys-line.text-left.active>a *, .eco-svg .text-left a:hover *, .eco-svg .text-right a:hover *{
+    filter: brightness(0) invert(1);
+    transition: ease all 0.3s;
+}
+.eco-sys-line.text-left.active>a {
+    margin: 0;
+    box-shadow: 0 0 0px 0px rgb(204, 204, 204);
+}
+.eco-sys-line.text-left.active>.text-right {
+    left: 20%;
+        opacity: 1;
+}
+g#Layer_3>g {
+    position: relative;
+    transition: ease all 0.3s;
+}
+/*-------------------Ecosystem -------------------*/
+/*-------------------Satisfied client -------------------*/
+#third-section-c{/*
+    background: url(../img/limetray-satisfied-client.png) #fbfbfb;
+    background-size: 100%;*/
+    padding: 3% 8%;
+}
+.owl-item p {
+    margin: 2% 0;
+}
+.item img {
+    width: 11rem;
+}
+/*-------------------Satisfied client -------------------*/
+
+.owl-carousel.owl-theme .owl-prev {
+    position: absolute;
+    top: 7%;
+    left: -8%;
+    font-size: 0!important;
+    background: transparent!important;
+    width: 20px;
+    height: 20px;
+    border-top: 1px solid #9e9e9e;
+    border-left: 1px solid #9e9e9e;
+    border-radius: 0!important;
+    opacity: 1!important;
+    transform: rotate(-45deg);
+}
+.owl-carousel.owl-theme .owl-next {
+    position: absolute;
+    top: 7%;
+    right: -8%;
+    font-size: 0!important;
+    background: transparent!important;
+    width: 20px;
+    height: 20px;
+    border-top: 1px solid #9e9e9e;
+    border-right: 1px solid #9e9e9e;
+    border-radius: 0!important;
+    opacity: 1!important;
+    transform: rotate(45deg);
+}
+div#third-section-d>.row {
+    max-width: 80%;
+}
+#third-section-d ul>li>img {
+    padding: 10px 0;
+}
+#third-section-d ul li img {
+    display: block;
+    width: 10rem;
+    margin:0 auto;
+}
+#third-section-d ul li {
+    padding: 0%;
+}
+div#third-section-d h2 {
+    margin: 3% 0;
+}
+/*fourth section*/
+section#fourth-section {
+    background: url(../img/limetray-fourth-section.png) #222;
+    background-position: top left;
+    padding: 2% 0;
+}
+section#fourth-section p {
+    margin-bottom: 15px;
+}
+/*fifith section*/
+
+section#fifth-section{
+	min-height: 90vh;
+}
+
+div#third-section-b {
+    padding: 3% 0px 1%;
+}
+
+
+div#third-section-b p {
+    margin: 1.5vh 0 2vh;
+    width: 32rem;}
+.limetray-ecosystem {
+    padding: 19% 0 0 10%;
+}
+@media(max-width:768px){
+.eco-svg svg {
+    display: none;
+}
+.limetray-discription {
+    padding: 5vh 2rem;
+}
+
+}

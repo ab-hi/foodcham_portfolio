@@ -1,0 +1,431 @@
+/*top bar*/
+section#pro-top-banner.hide-for-small-only {
+    position: relative;
+    min-height: 100vh;
+    background-image: url(../img/product/limetray-pro-banner.jpg);
+    background-size: 115%;
+    background-position: top left 88%;}
+
+section#pro-top-banner {
+    position: relative;
+    min-height: calc(100vh - 22rem);
+    background-image: url(../img/product/limetray-pro-banner.jpg);
+    background-size: cover;
+    background-position: top left 60%;
+    transition: all 0.5s ease;}
+
+section#pro-top-banner-medium {
+    position: relative;
+    min-height: calc(100vh - 22rem);
+    background-image: url(../img/product/limetray-pro-banner.jpg);
+    background-size: cover;
+    background-position: top left 60%;
+    transition: all 0.5s ease;}
+
+section#pro-top-banner-small {
+    position: relative;
+    min-height: calc(100vh - 22rem);
+    background-image: url(../img/product/limetray-pro-banner.jpg);
+    background-size: cover;
+    background-position: top left 60%;}
+
+   /* header{    transition: all 0.5s ease;}*/
+
+#product-section-a .row {
+    max-width: 100%;}
+
+#product-box .columns {
+   padding: 0;
+   position: relative;
+   height: 93vh;
+}
+
+#product-container{
+    position: relative;}
+
+#product-section-a {
+   /* height: 1rem;*/
+    padding: 1% 0 0 0;
+    background-color: #f9f9fa;
+    z-index: 1;
+    /* transition: all 0.6s ease; */}
+
+#product-section-a>.row{
+    background-color: #f9f9fa;
+}
+
+#product-section-a.sticky-product-item>.row {
+    background-color: #242424;
+}
+
+#product-section-a li a span{
+    display: block;}
+
+.product-img img {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    transition: ease all 0.4s;
+    width: 39%;}
+
+.product-menu li:hover .product-img img {
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+    transition: ease all 0.4s;
+}
+
+.product-name {
+    margin-top: 1.4rem;
+    font-weight: 600;}
+
+#product-box .row {
+    max-width: 100%;}
+
+.limetray-products:nth-child(2n+2) {
+    background-color: #f9f9fa;}
+
+.limetray-products {
+   /* padding: 6% 0 0 0; */
+   height: 94vh;
+}
+
+.product-desc {
+   position: absolute;
+   min-width: 70%;
+   top: 52%;
+   left: 45%;
+   transform: translate(-50%,-50%);
+   -webkit-transform: translate(-50%,-50%);
+   -moz-transform: translate(-50%,-50%);
+}
+
+.product-name-a {
+    margin: 1.6rem 0rem;}
+
+.product-img-a img {
+    width: 80%;}
+
+.product-desc h2 {
+    margin-bottom: 6%;
+    font-size: 2.4rem;}
+
+div#product-section-a.sticky-product-item {
+    height: auto !important;
+    position: fixed;
+    width: 100%;
+    top: 6rem;
+    background-color: #242424;
+    padding: 0.5% 0 0 0;}
+
+div#product-section-a.sticky-product-item span.product-img{
+   /* visibility: hidden;*/
+    display: none !important;}
+
+.product-logo-name {
+    line-height: 1.4rem;
+    margin: 1rem 2rem;}
+
+.sticky-product-item .product-name {
+    color: white;
+    font-weight: normal;}
+
+.product-desc-btn {
+   /* margin-top: 7%; */
+}
+
+.product-desc-btn a {
+   border: 1px solid;
+   padding: 15px 35px;
+   position: relative;
+   display: inline-block;
+   transition: ease all 0.75s;
+   color: white;
+}
+
+.product-desc-btn a:after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: #ff6600;
+    transition: ease all 0.75s;
+    z-index: -1;}
+
+.product-desc-btn a:hover {
+    border: 1px solid #ff6600;
+    transition: ease all 0.75s;
+    color: #ff6600!important;}
+
+.product-desc-btn a:hover:after {
+    height: 0%;
+    transition: ease all 0.75s;}
+
+#product-section-a li a.active span {
+    color: #93da60;}
+
+.sticky-product-item .product-name:hover {
+    color: #93da60;}
+
+.product-height {
+    display: block;
+    margin-top: 1.4rem;
+    display: none;}
+
+#product-section-b {
+    margin: 0% 0 2%;
+    padding: 8% 0;
+    background-image: url(../img/product/limetray-pulse-bg.jpg);}
+
+#product-section-b h2 {
+    padding: 3rem;}
+
+.pulse-btn-line{
+    text-align: left;}
+
+.pulse-btn-line a.button {
+    font-size: 1.4rem;
+    background: #6da942;}
+
+.pulse-btn-line2 a.button {
+    font-size: 1.4rem;
+    background: #6da942;
+    padding: 13px 14px;
+}
+
+/*.limetray-products .columns.large-6 {
+    width: 48%;
+}
+*/
+.limetray-pro-img{    padding-top: 6rem; max-height: 100%;max-width: 100%;}
+
+.product-section-height {
+    height: 7rem;
+    background-color: #f9f9fa;
+}
+
+@media only screen and (min-width: 40.0625em){
+.reveal-modal {
+    max-width: 88rem !important;}
+}
+
+@media(max-width: 1080px){
+
+    #product-section-a {
+    height: auto;}
+
+    .product-desc {
+    padding: 21% 14% 5%;}
+
+
+    #product-section-a {
+    overflow-x: scroll;
+    padding: 2% 0 3% 0;}
+
+    .product-menu {
+    min-width: 1000px;}
+
+    #product-section-a li a span {
+    display: block;
+    font-size: 1.4rem;}
+
+    .product-menu li {
+    width: 9%;}
+
+    .limetray-products {
+    padding: 11% 0 0 0;}
+
+    .product-img img {
+    width: 60%;}
+
+    .product-desc-btn {
+    margin-top: 12%;}
+
+    .product-logo-name {
+    margin: 2rem 2rem;}
+
+    .pulse-btn-line2 a.button {
+    font-size: 1.2rem;
+}
+
+#product-section-b {
+    margin: 0% 0 2%;
+    padding: 20% 0;}
+
+    #product-section-b h2 {
+    padding: 3rem 0;}
+}
+
+@media(min-width: 1650px){
+div#product-section-a.sticky-product-item {
+    top: 6rem;}
+
+.limetray-pro-img {
+    padding-top: 6rem;}
+
+    .product-name-a {
+    margin: 0.7rem 0rem;}
+
+}
+
+@media(max-width: 720px){
+
+    .pulse-block img{
+    width: 58%;
+    margin-top: 14%;}
+    #product-box .columns, .limetray-products{
+        height: auto;
+    }
+    .product-desc {
+        position: relative;
+        top: initial;
+        transform: translateY(0);
+        -webkit-transform: translateY(0);
+        -moz-transform: translateY(-50%);
+        left: 0;}
+}
+
+
+#success-new{display: none;}
+
+#success-new .successmessage {
+    background: rgba(109, 169, 66, 0);
+    padding: 1rem 2rem 2rem;
+    border-radius: 2px;
+    box-shadow: none;
+    color: #0c0c0c;
+}
+
+#success-new .successmessage a{display: none;}
+
+@media(min-width: 760px) and (max-width: 1080px){
+.product-desc {
+    top: 43% !important;}
+
+.product-desc {
+    padding: 0% 0% 0% !important;}
+
+}
+
+.top-banner-caption {
+    position: absolute;
+    bottom: 13%;
+    left: 4.5%;
+}
+
+.top-banner-caption h5 {
+    color: rgb(255, 255, 255);
+}
+
+
+.font_size_d {
+    font-size: 3rem;
+    line-height: 1.35;
+}
+
+.font_family_a {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.top-banner-caption h5:after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 0.1rem;
+    background: #EA7320;
+    margin-top: 2rem;
+}
+
+.top-banner-caption p {
+    color: rgb(255, 255, 255);
+    margin: 2.5rem 0;
+    line-height: 30px;
+}
+
+.font_size_b {
+    font-size: 1.4rem;
+}
+
+
+
+.product-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border-radius: 0;
+    border-style: solid;
+    border-width: 0;
+    cursor: pointer;
+    font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    font-weight: normal;
+    line-height: normal;
+    margin: 0 0 1.25rem;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 1rem 2rem 1.0625rem 2rem;
+    font-size: 1rem;
+    background-color: #008CBA;
+    border-color: #007095;
+    color: #FFFFFF;
+    transition: background-color 300ms ease-out;
+}
+
+.product-button {
+    background: #EA7320;
+    padding: 13px 35px;
+    text-transform: uppercase;
+    transition: ease all 0.75s;
+    border-radius: 2px;
+    margin-top: 1rem;
+}
+
+
+
+.product-button:hover, .product-button:focus, .product-button:active {
+    background: #ED571A;
+    transition: ease all 0.75s;
+}
+
+.product-button:hover, .product-button:focus {
+    color: #FFFFFF;
+}
+
+#product-section-a>.row {
+    background-color: #f9f9fa;
+}
+
+#product-section-a .row {
+    max-width: 100%;
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+.product-name {
+    margin-top: 1.4rem;
+    font-weight: 600;
+}
+
+.font_family_a {
+    font-family: 'Open Sans', sans-serif;
+}
+.font_color_b, .font_color_b:hover, .font_color_b:focus {
+    color: #57585b;
+}
+
+#product-box .columns {
+    padding: 0;
+    position: relative;
+    height: 93vh;
+}
+
+.left {
+    float: left !important;
+}
+
+.product-img-a img {
+    width: 80%;
+}
