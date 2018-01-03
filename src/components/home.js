@@ -6,12 +6,14 @@ import Home_features from './home/home-features';
 import Partners from './home/partners';
 import Clients from './home/clients';
 import Testimonials from './home/testimonials';
+import ScrollToTop from './scrollToTop';
 
 
 export default class Home extends Component{
     render(){
         return(
             <div className= "App">
+                <ScrollToTop />
                 <div style={head_style}>
                     <Header_slider />
                 </div>

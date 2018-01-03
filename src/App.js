@@ -15,10 +15,10 @@ import About from './components/about/about';
 import Footer from './components/footer'
 
 
+
 class App extends Component {
   render() {
     return (
-      <div>
       <Router>
         <div>
           <Navbar />
@@ -29,9 +29,9 @@ class App extends Component {
             <Route path ="/about" component={About} />
             <Footer />
         </div>
+        
       </Router>
       
-      </div>
     );
   }
 }

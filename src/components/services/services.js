@@ -2,11 +2,14 @@ import React, { Component } from 'react';
 
 import PageStart from '../PageStart';
 import ServicesBody from './servicesbody';
+import ScrollToTop from '../scrollToTop';
+
 
 export default class Services extends Component{
     render(){
         return(
             <div>
+                <ScrollToTop />
                 <PageStart title="Services" /> 
                 <section id="site-content">
           
