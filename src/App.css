@@ -43,3 +43,12 @@ background : radial-gradient(circle farthest-side at right bottom, #E7B02F 5%,#e
 .price-list-container li{
   font-size:0.9em;
 }
+
+.parallax{
+  min-height: 300px;
+  background-attachment: fixed;
+}
+
+body{
+  overflow-x: hidden;
+}
