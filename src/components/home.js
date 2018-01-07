@@ -9,8 +9,8 @@ import Testimonials from './home/testimonials';
 import ScrollToTop from './scrollToTop';
 import Parallax from './parallax';
 
-import parallax_img1 from '../assets/img/limetray-hm-banner.jpg';
-import parallax_img2 from '../assets/img/limetray-clientpage-slid-bk.jpg';
+import parallax_img1 from '../assets/img/fctablet.jpg';
+import parallax_img2 from '../assets/img/foodchamteam.jpg';
 
 
 export default class Home extends Component{
