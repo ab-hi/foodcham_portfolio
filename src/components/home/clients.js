@@ -1,5 +1,10 @@
 import React, { Component } from 'react';
 
+import client1 from '../../assets/img/foodcham-client-1.png';
+import client2 from '../../assets/img/foodcham-client-2.png';
+import client3 from '../../assets/img/foodcham-client-3.png';
+import client4 from '../../assets/img/foodcham-client-4.png';
+
 class Client extends Component{
     render(){
         return(
@@ -16,10 +21,11 @@ export default class Clients extends Component{
             <div className="cta-default border-all margin-top-sm">
                 <div className="row">
                     <h4>Our Top Clients</h4>
-                    <Client src="img/burger-king-limetray.png" className="img-responsive" />
-                    <Client src="img/burger-king-limetray.png" className="img-responsive" />
-                    <Client src="img/burger-king-limetray.png" className="img-responsive" />
-                    <Client src="img/burger-king-limetray.png" className="img-responsive" />
+                    <Client src={client1} className="img-responsive" />
+                    <Client src={client2} className="img-responsive" />
+                    <Client src={client3} className="img-responsive" />
+                    <Client src={client4} className="img-responsive" />
+                    
                 </div>
             </div>
         )
