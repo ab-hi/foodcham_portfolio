@@ -1,6 +1,10 @@
 import React from 'react';
 
 import AboutQA from './about-qa';
+import TeamMember from './team';
+
+import member1 from '../../assets/img/under-500-limetray.png';
+
 
 export default class AboutBody extends React.Component{
     render(){
@@ -8,7 +12,7 @@ export default class AboutBody extends React.Component{
             <section id="site-content">
                 <div class="container wrap-top-sm">
                     <div class="row">
-                        <div class="col-sm-9">
+                        <div class="col-sm-12">
                             <div class="page-content">
                                 <p>
                                     The food industry is changing and you have probably noticed that your restaurant is being exposed to a technological revolution.
@@ -72,22 +76,23 @@ export default class AboutBody extends React.Component{
                                 </AboutQA>
                             </div>
                         </div>
-                        <div class="col-sm-3">
-                            <div class="sidebar-menu-container">
-                                <ul class="list-group">
-                                    <li class="list-group-item active"><a href="about.html">About</a></li>
-                                    <li class="list-group-item "><a href="features.html">Features</a></li>
-                                    <li class="list-group-item "><a href="licence.html">Licence</a></li>
-                                    <li class="list-group-item "><a href="roadmap.html">Roadmap</a></li>
-                                    <li class="list-group-item "><a href="philosophy.html">Philosophy</a></li>
-                                    <li class="list-group-item "><a href="governance.html">Governance</a></li>
-                                    <li class="list-group-item "><a href="logo-usage.html">Logo Usage</a></li>
-                                    <li class="list-group-item "><a href="contact.html">Contact</a></li>
-                                </ul>
-                            </div>                    
-                        </div>
+                        
                     </div>
+                    
+
                 </div>
+                
+                <div className="row home-cfa margin-top-sm">
+                    <div className="container">
+                        <TeamMember img={member1} name="full name" designation="designation"/>
+                        <TeamMember img={member1} name="full name" designation="designation"/>
+                        <TeamMember img={member1} name="full name" designation="designation"/>
+                        <TeamMember img={member1} name="full name" designation="designation"/>
+                        <TeamMember img={member1} name="full name" designation="designation"/>
+                        <TeamMember img={member1} name="full name" designation="designation"/>
+
+                    </div>
+                    </div>
             </section>
 
         )

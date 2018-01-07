@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 
 import logo from './logo.svg';
-import './App.css';
 
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 
@@ -12,8 +11,10 @@ import Home from './components/home';
 import Services from './components/services/services';
 import Blog from './components/blog/blog';
 import About from './components/about/about';
-import Footer from './components/footer'
+import Footer from './components/footer';
+import Demo from './components/demo/demo';
 
+import './App.css';
 
 
 class App extends Component {
@@ -27,6 +28,7 @@ class App extends Component {
             <Route path ="/services" component={Services} />
             <Route path ="/blog" component={Blog} />
             <Route path ="/about" component={About} />
+            <Route path ="/demo" component={Demo} />
             <Footer />
         </div>
         

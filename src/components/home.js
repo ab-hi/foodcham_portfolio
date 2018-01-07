@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+import {Link} from 'react-router-dom';
+
 import Header_slider from './home/head-slider';
 import {head_style} from './home/head-slider'; 
 import Home_features from './home/home-features';
@@ -27,7 +29,22 @@ export default class Home extends Component{
 
                 <Partners />
                 <Clients />
-                <Testimonials />
+                <div className="home-cfa margin-top-sm">
+                    <Testimonials />
+                </div>
+
+                <div className="container">
+                    <div className="cta cta-default border-all margin-top-sm">
+                        <div className="row">
+                            <div className="col-sm-9 cta-text margin-top-xs">
+                                <h4>We’re serving up some pretty tasty features</h4>
+                            </div>
+                            <div className="col-sm-3 cta-button border-sm-left text-center">
+                                <Link className="btn btn-orange btn-lg" to="/services"><span>See Our Services</span></Link>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         )
     }

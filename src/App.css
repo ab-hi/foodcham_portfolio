@@ -52,3 +52,25 @@ background : radial-gradient(circle farthest-side at right bottom, #E7B02F 5%,#e
 body{
   overflow-x: hidden;
 }
+
+.carousel .slide{
+  background: transparent;
+}
+
+.carousel .control-dots{
+  position: relative
+}
+
+.team-member img{
+  border-radius: 100%;
+}
+
+#site-header .navbar-default .navbar-nav > li > a{
+  background-color: transparent;
+  color: #F7F7F7;
+  line-height: 20px;
+  padding: 15px 12px;
+  font-weight: 500;
+  font-size: 15px;
+  display: inline-block;
+}
