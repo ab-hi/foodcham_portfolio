@@ -2,10 +2,10 @@ import React,  { Component }  from 'react';
 
 import {Link} from 'react-router-dom';
 
-import img1 from '../../assets/img/features_img/foodcham-waiter.png';
-import img2 from '../../assets/img/features_img/foodcham-dollar.png';
-import img3 from '../../assets/img/features_img/foodcham-telephone.png';
-import img4 from '../../assets/img/features_img/foodcham-update.png';
+import img1 from '../../assets/img/features_img/foodcham_waiter.png';
+import img2 from '../../assets/img/features_img/foodcham_dollar.png';
+import img3 from '../../assets/img/features_img/foodcham_telephone.png';
+import img4 from '../../assets/img/features_img/foodcham_update.png';
 
 export default class Home_features extends Component{
     render(){
