@@ -75,3 +75,41 @@ body{
   font-size: 15px;
   display: inline-block;
 }
+
+.home-features img{
+  width: 35%;
+  margin: 0 auto;
+  padding-bottom: 1em;
+}
+
+.carousel .slide img{
+  display: none;
+}
+
+.carousel ul.control-dots{
+  display: none;
+}
+
+.carousel .col-md-offset-3{
+  margin-left: 25% !important;
+}
+
+.carousel .thumb{
+  border: none;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+
+.carousel .thumb img{
+  border-radius: 100%;
+}
+
+.carousel .thumb.selected, .carousel .thumb:hover{
+  border: none;
+  -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(0%);
+}
+
+.carousel .carousel-status{
+  display: none;
+}
