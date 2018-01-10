@@ -30,6 +30,8 @@ export default class Home extends Component{
                 <Partners />
                 <Clients />
                 <div className="home-cfa margin-top-sm">
+                <h3>What people say about us</h3>
+
                     <Testimonials />
                 </div>
 

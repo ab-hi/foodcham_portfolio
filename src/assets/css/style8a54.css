@@ -215,19 +215,19 @@ body .stripe-loading-indicator .stripe-loaded {
 }
 #site-header .navbar-header .navbar-brand {
     padding: 7px 0 0;
-    width: 150px;
+    /* width: 150px; */
     outline: 0 none;
 }
 @media (min-width:768px) {
     #site-header .navbar-header .navbar-brand {
         padding: 8px 15px 0;
-        width: 170px;
+        /* width: 170px; */
     }
 }
 @media (min-width:992px) {
     #site-header .navbar-header .navbar-brand {
         padding: 8px 15px 0;
-        width: 170px;
+        /* width: 170px; */
     }
 }
 #site-header .navbar-default .navbar-nav > li {

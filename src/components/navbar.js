@@ -11,6 +11,7 @@ import Services from './services/services';
 import Blog from './blog/blog';
 import About from './about/about';
 
+import logo from '../assets/img/foodcham_banner-01.png';
 
 export default  class Navbar extends Component{
 
@@ -21,9 +22,9 @@ export default  class Navbar extends Component{
                     <nav id="site-nav" className="navbar navbar-default" role="navigation">
                         <div className="container">
                             <div className="row">
-                                <div className="navbar-header col-xs-12 col-sm-2">
+                                <div className="navbar-header col-xs-12 col-sm-3">
                                     <NavLink className="navbar-brand" to="/">
-                                        <img src="assets/images/tastyigniter-logo.png" alt="Foodcham" />
+                                        <img src={logo} alt="Foodcham" className="img-responsive" />
                                     </NavLink>
                                     <button type="button" className="btn navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
                                         <span className="sr-only">Toggle navigation</span>
