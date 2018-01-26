@@ -10,10 +10,10 @@ export default class AboutBody extends React.Component{
     render(){
         return(
             <section id="site-content">
-                <div class="container wrap-top-sm">
-                    <div class="row">
-                        <div class="col-sm-12">
-                            <div class="page-content">
+                <div className="container wrap-top-sm">
+                    <div className="row">
+                        <div className="col-sm-12">
+                            <div className="page-content">
                                 <p>
                                     The food industry is changing and you have probably noticed that your restaurant is being exposed to a technological revolution.
                                     You may feel that you’re falling behind the times and in order to compete in this instantly gratifying world, you need something
@@ -83,6 +83,8 @@ export default class AboutBody extends React.Component{
                 </div>
                 
                 <div className="row home-cfa margin-top-sm">
+                <h3>Our Team</h3>
+
                     <div className="container">
                         <TeamMember img={member1} name="full name" designation="designation"/>
                         <TeamMember img={member1} name="full name" designation="designation"/>

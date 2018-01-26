@@ -16,7 +16,7 @@ export default class ServicesBody extends Component{
                     </p>
                     <p>If you do need a little help however, we have a range of affordable services.</p>
 
-                    <div className="row margin-bottom-sm">
+                    {/* <div className="row margin-bottom-sm">
                         <div className="col-sm-8 wrap-bottom-sm">
                             <h3>Installation</h3>
                             <p>We can install TastyIgniter for you – ready to go within a matter of hours.</p>
@@ -33,11 +33,8 @@ export default class ServicesBody extends Component{
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
 
-                    <h3><strong>TastyIgniter Hosting Solutions</strong></h3>
-                    <p>Our hosting packages provide your IT department with something invaluable – <strong>time</strong>.</p>
-                    <p>We take care of the server set-up, the installation, all of the maintenance and upgrades, plus you will be given exclusive access to premium technical support.</p>
                 </div>
 
                 <div className="border-horizontal text-center">
@@ -177,7 +174,7 @@ export default class ServicesBody extends Component{
                     </div>
                 </div>
 
-                <div className="border-sm-horizontal margin-bottom-xs">
+                {/* <div className="border-sm-horizontal margin-bottom-xs">
                     <div className="container">
                         <div className="row flex-container">
                             <ServicesFeatures2 title="Bring your idea to life" icon = "fa-code">
@@ -193,7 +190,7 @@ export default class ServicesBody extends Component{
                             </ServicesFeatures2>
                         </div>
                     </div>
-                </div>
+                </div> */}
 
 
             </div>

@@ -5,7 +5,7 @@ export default class FeaturesPoints2 extends Component{
     render(){
         return(
             
-            <div id="product-ace" className="limetray-products">
+            <div id={this.props.id} className="limetray-products">
                 <div className="row">                    
                     
                     <div className="col-xs-12 col-sm-6 col-md-6 columns text-left col-md-push-6">
@@ -19,8 +19,7 @@ export default class FeaturesPoints2 extends Component{
                                 </p>
                             </div>
                             <div>
-                                <h2 className="font_family_a font_color_b font_size_d">{this.props.heading}</h2>
-                                <p className="font_color_d font_size_b font_family_c">{this.props.children}</p>
+                                <h2 className="font_family_a font_color_b font_size_d">{this.props.children}</h2>
                             </div>
                             <div className="product-desc-btn">
                                 <Link to="/features" className="font_family_a font_size_a color-lime text-uppercase">Get Started</Link>
