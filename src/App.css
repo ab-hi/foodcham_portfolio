@@ -113,3 +113,11 @@ body{
 .carousel .carousel-status{
   display: none;
 }
+
+.parallax-text{
+  float: left;
+  color: white;
+  font-size: 1.4em;
+  font-weight: bold;
+  text-shadow: 1px 1px 10px rgba(0,0,0);
+}

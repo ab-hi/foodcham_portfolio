@@ -25,14 +25,21 @@ import featureImg2  from "../../assets/img/product/limetray-ace-img.jpg";
 
 
 class Feature extends Component{
+
     render(){
         return(
-            <li><a><span class="product-img"><img src={this.props.src} /></span><span class="text-uppercase font_family_a font_color_b product-name">{this.props.title}</span></a></li>
+            <li style={{cursor:"pointer"}} onClick={this.props.onClick}><a><span class="product-img"><img src={this.props.src} /></span><span class="text-uppercase font_family_a font_color_b product-name">{this.props.title}</span></a></li>
         )
     }
 }
 
 export default class FeaturesBody  extends Component{
+
+    scrollToElement(item){
+        let elem =document.getElementById(item);
+        elem.scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
+    }
+
     render(){
         return(
             <div>
@@ -49,26 +56,36 @@ export default class FeaturesBody  extends Component{
                  <div class="row">
                    <div class="small-12 columns text-center">
                      <ul class="list-inline product-menu">
-                        <Feature title="Click" src={img1} />
-                        <Feature title="Ace" src={img2} />
-                        <Feature title="Tap" src={img3} />
-                        <Feature title="Dine" src={img4} />
-                        <Feature title="Merge" src={img5} />
-                        <Feature title="Point" src={img6} />
-                        <Feature title="Reach" src={img7} />
-                        <Feature title="Loop" src={img8} />
-                        <Feature title="Drive" src={img9} />
-                        <Feature title="Line" src={img10} />
-                        <Feature title="Pulse" src={img11} />
+                        <Feature onClick={(item) => this.scrollToElement("feature1")} title="Click" src={img1} />
+                        <Feature onClick={(item) => this.scrollToElement("feature2")} title="Ace" src={img2} />
+                        <Feature onClick={(item) => this.scrollToElement("feature3")} title="Tap" src={img3} />
+                        <Feature onClick={(item) => this.scrollToElement("feature4")} title="Dine" src={img4} />
+                        <Feature onClick={(item) => this.scrollToElement("feature5")} title="Merge" src={img5} />
+                        <Feature onClick={(item) => this.scrollToElement("feature6")} title="Point" src={img6} />
+                        <Feature onClick={(item) => this.scrollToElement("feature7")} title="Reach" src={img7} />
+                        <Feature onClick={(item) => this.scrollToElement("feature8")} title="Loop" src={img8} />
+                        
                      </ul>
                    </div>
                  </div>
            
             </div>
             <div id="product-box">
-                <FeaturesPoints title="CLICK" icon={img1} heading="Create a beautiful website for your restaurant" src={featureImg1}>Choose from an array of fully-customizable templates branded to your business. Fetch reviews from online platforms, integrate your social media channels and manage your content easily with complete backend access.</FeaturesPoints>
+                <FeaturesPoints id="feature1" title="INTERACTIVE MENU" icon={img1} src={featureImg1}>Categorising various menu groups and items so that customers do not have to scroll through a long list of items </FeaturesPoints>
 
-                <FeaturesPoints2 title="ACE" icon={img2} heading="Get your own online ordering portal" src={featureImg2}>Let your customers order directly from your website & app with fully customized & branded order online pages. Experience seamless order management with complete control over menu & offers, fully integrated with leading online payment portals.</FeaturesPoints2>
+                <FeaturesPoints2 id="feature2" title="QUICK SEARCH" icon={img2} src={featureImg2}>Let your customers search for a specific item among differenr sub-menus </FeaturesPoints2>
+
+                <FeaturesPoints id="feature3" title="FEEDBACK AND ANALYSIS" icon={img1}  src={featureImg1}>Never miss any important feedback, generate reports for accurate analysis and better understanding of cutomer behavior.</FeaturesPoints>
+
+                <FeaturesPoints2 id="feature4" title="MAKE YOUR OWN STUFF" icon={img2} src={featureImg2}>Gamify the user experience of shopping and empower them to customise their food</FeaturesPoints2>
+
+                <FeaturesPoints id="feature5" title="INTERNAL CUSTOMISAION" icon={img1}  src={featureImg1}>Enables customer to modify items with their tailored preferences</FeaturesPoints>
+
+                <FeaturesPoints2 id="feature6" title="TIMELY AND CORRECT ORDERS" icon={img2} src={featureImg2}>Prepare dishes timely and in the right order thanks to the clear and highly intutive Table Management System</FeaturesPoints2>
+
+                <FeaturesPoints id="feature7" title=" FAST AND AUTOMATED ORDERS" icon={img1} src={featureImg1}>Efficient service increasing the rotation of customers per table and lessening the waiting time</FeaturesPoints>
+
+                <FeaturesPoints2 id="feature8" title="USER DATA" icon={img2} src={featureImg2}>Maintains user's database and history for easy accesing, management, references and suggestions</FeaturesPoints2>
             </div>
         </div>
 

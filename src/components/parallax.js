@@ -5,6 +5,7 @@ export default class Parallax extends Component{
         return(
             <div className="row">
                 <div className="parallax cta-default margin-top-sm" style={{backgroundImage: `url(${this.props.img})`}}>
+                   <p className="parallax-text col-sm-4"> {this.props.children} </p>
                 </div>
             </div>
         )

@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom';
 export default class FeaturesPoints extends Component{
     render(){
         return(
-            <div className="limetray-products">
+            <div className="limetray-products" id={this.props.id}>
                 <div className="row">
                     <div className="col-sm-12 col-lg-6 col-md-6 columns text-left">
                             <div className="product-desc">
@@ -17,8 +17,7 @@ export default class FeaturesPoints extends Component{
                                     </p>
                                 </div>
                                 <div>
-                                    <h2 className="font_family_a font_color_b font_size_d">{this.props.heading}</h2>
-                                    <p className="font_color_d font_size_b font_family_c">{this.props.children}</p>
+                                    <h2 className="font_family_a font_color_b font_size_d">{this.props.children}</h2>
                                 </div>
                                 <div className="product-desc-btn"><Link to="/features" className="font_family_a font_size_a color-lime text-uppercase">Get Started</Link></div>
                             </div>

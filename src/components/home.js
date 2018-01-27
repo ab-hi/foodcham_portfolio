@@ -23,9 +23,13 @@ export default class Home extends Component{
                 <div style={head_style}>
                     <Header_slider />
                 </div>
-                <Parallax img = {parallax_img1} />
+                <Parallax img = {parallax_img1} >
+                    Lorem ipsun dolor sit amet Lorem ipsun dolor sit amet Lorem ipsun dolor sit amet Lorem ipsun dolor sit amet Lorem ipsun dolor sit amet Lorem ipsun dolor sit
+                </Parallax>
                 <Home_features />
-                <Parallax img = {parallax_img2} />
+                <Parallax img = {parallax_img2}>
+                    Lorem ipsun dolor sit amet Lorem ipsun dolor sit amet Lorem ipsun dolor sit amet Lorem ipsun dolor sit amet Lorem ipsun dolor sit
+                </Parallax>
 
                 <Partners />
                 <Clients />
