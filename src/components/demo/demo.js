@@ -10,7 +10,7 @@ export default class Demo extends Component{
         return(
             <div>
                 <ScrollToTop />
-                <PageStart title="Demo" />
+                <PageStart title="Products" />
                 <DemoBody />
             </div>
         );
