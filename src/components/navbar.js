@@ -37,11 +37,12 @@ export default  class Navbar extends Component{
                                     <ul className="nav navbar-nav">
                                         <li className=""><NavLink to="/">Home</NavLink></li>
                                         <li className=""><NavLink to="/about">About</NavLink></li>
+                                        <li className=""><NavLink to="/products">Products</NavLink></li>
+
                                         <li className=""><NavLink to="/features">Features</NavLink></li>
                                         <li className=""><NavLink to="/services">Services</NavLink></li>
                                     
                                         <li className=""><NavLink to="/blog">Blog</NavLink></li>
-                                        <li className=""><NavLink to="/demo">Demo</NavLink></li>
                                         <li className="footer-contact"> <ModalBox /></li>
                                     </ul>
                                 </div>

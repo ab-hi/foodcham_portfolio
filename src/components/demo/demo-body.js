@@ -20,6 +20,15 @@ export default class DemoBody extends Component{
                                 <div className="clearfix"></div>
                                 <br/><br/>
                                 <a className="btn btn-default btn-lg wrap-vertical-lg" href="https://demo.tastyigniter.com/" target="_blank" rel="">View Storefront</a>
+                                <ul className="list-unstyled" style={{marginTop: '2em'}}>
+                                    <li>Lorem ipsum dolor sit amet</li>
+                                    <li>mdsjvhkj</li>
+                                    <li>Lorem ipsum dolor sit amet</li>
+                                    <li>mdsjvhkj</li>
+                                    <li>Lorem ipsum dolor sit amet</li>
+                                    <li>mdsjvhkj</li>
+
+                                </ul>
                             </div>
                             <div className="col-sm-6 border-left border-right wrap-horizontal">
                                 <h3>Administrator Panel</h3>
@@ -29,7 +38,17 @@ export default class DemoBody extends Component{
                                 <div className="clearfix"></div>
                                 <br/><br/>
                                 <a className="btn btn-primary btn-lg wrap-vertical-lg" href="https://demo.tastyigniter.com/admin" target="_blank" rel="">View Administrator Panel</a>
+                                <ul className="list-unstyled" style={{marginTop: '2em'}}>
+                                <li>Lorem ipsum dolor sit amet</li>
+                                <li>mdsjvhkj</li>
+                                <li>Lorem ipsum dolor sit amet</li>
+                                <li>mdsjvhkj</li>
+                                <li>Lorem ipsum dolor sit amet</li>
+                                <li>mdsjvhkj</li>
+
+                                </ul>
                             </div>
+                            
                         </div>
                     </div>
                 </div>
