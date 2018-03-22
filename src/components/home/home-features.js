@@ -16,23 +16,23 @@ export default class Home_features extends Component{
                         <div className="row">
                             <div className="col-sm-3 cfa-col">
                                 <span><img className="img-responsive" src={img1}/></span>
-                                <span className="cfa-text">Within minutes you can start placing more orders.</span>
-                                <a className="cfa-link" href="download.html">Download Now <i className="fa fa-angle-right"></i></a>
+                                <span className="cfa-text">Enhancing ordering experience by digital waiters.</span>
+                                
                             </div>
                             <div className="col-sm-3 cfa-col">
                                 <span><img className="img-responsive" src={img2}/></span>
-                                <span className="cfa-text">Want to see how it feels to use FoodCham?</span>
-                                <a className="cfa-link" href="demo.html">View Demo <i className="fa fa-angle-right"></i></a>
+                                <span className="cfa-text">Cost efficient solution.</span>
+                                
                             </div>
                             <div className="col-sm-3 cfa-col">
                                 <span><img className="img-responsive" src={img3}/></span>
-                                <span className="cfa-text">Become a FoodCham expert yourself and impress.</span>
-                                <a className="cfa-link" href="#">Read Documentation <i className="fa fa-angle-right"></i></a>
+                                <span className="cfa-text">All time service support.</span>
+                                
                             </div>
                             <div className="col-sm-3 cfa-col">
                                 <span><img className="img-responsive" src={img4}/></span>
-                                <span className="cfa-text">Get Support & Discuss Things about FoodCham.</span>
-                                <a className="cfa-link" href="#">View Forums <i className="fa fa-angle-right"></i></a>
+                                <span className="cfa-text">Regular and easy updates.</span>
+                                
                             </div>
                         </div>    
                     </div>

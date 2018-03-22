@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
-import logo_1 from "../../assets/img/limetray-partners-google.png";
-import logo_2 from "../../assets/img/limetray-partners-zomato.png";
+import logo_1 from "../../assets/img/foodcham-tie-up-ambrane.jpg";
+import logo_2 from "../../assets/img/foodcham-tie-up-sparktech.jpg";
 import logo_3 from "../../assets/img/limetray-partners-swiggy.png";
 
 class Partner extends Component{

@@ -8,11 +8,10 @@ export default class ServicesBody extends Component{
         return(
             <div>
                  <div className="container margin-bottom-sm">
-                    <h2 className="page-title">No fees, no hidden costs, no contracts.</h2>
+                    <h2 className="page-title">Simple and Inexpensive.</h2>
 
                     <p>
-                        TastyIgniter is 100% free – free from fees, free from cost and free from contracts. You can use this software without
-                        worry of any annual software licence fee.
+                        Foodcham is a cost efficient solution for restaurants to enhance their customer experience.
                     </p>
                     <p>If you do need a little help however, we have a range of affordable services.</p>
 
@@ -82,11 +81,11 @@ export default class ServicesBody extends Component{
                                     <div className="panel panel-default panel-price active">
                                         <div className="panel-heading">
                                             <div className="price-recommended">Recommended</div>
-                                            <h3 className="panel-title">Annual</h3>
+                                            <h3 className="panel-title">Digital Ordering Software</h3>
                                             <p className="price">
-                                                <sup>£</sup>
-                                                <span>539.99</span>
-                                                <sub>/yr.</sub>
+                                                <sup>₹</sup>
+                                                <span>999</span>
+                                                <sub>/mo.</sub>
                                             </p>
                                             <p className="hint small">first 3 months free</p>
                                         </div>
@@ -106,10 +105,10 @@ export default class ServicesBody extends Component{
                                 <div className="col-xs-12 col-sm-4 wrap-none text-center">
                                     <div className="panel panel-default panel-price">
                                         <div className="panel-heading">
-                                            <h3 className="panel-title">Monthly</h3>
+                                            <h3 className="panel-title">Waiter Ordering Software</h3>
                                             <p className="price">
-                                                <sup>£</sup>
-                                                <span>59.99</span>
+                                                <sup>₹</sup>
+                                                <span>799</span>
                                                 <sub>/mo.</sub>
                                             </p>
                                         </div>

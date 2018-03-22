@@ -19,7 +19,7 @@ export default class Services extends Component{
                             <div className="row">
                                 <div className="col-sm-9 cta-text">
                                     <h4>Still looking for something?</h4>
-                                    <h5>Contact the TastyIgniter Support for an answer to your question quick flash.</h5>
+                                    <h5>Contact the Foodcham Support for an answer to your question quick flash.</h5>
                                 </div>
                                 <div className="col-sm-3 cta-button border-sm-left text-center">
                                     <a className="btn btn-primary" href="contact.html">Contact Us</a>

@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 
-import client1 from '../../assets/img/foodcham-client-1.png';
-import client2 from '../../assets/img/foodcham-client-2.png';
-import client3 from '../../assets/img/foodcham-client-3.png';
+import client1 from '../../assets/img/fc-client-thc.jpg';
+import client2 from '../../assets/img/fc-client-sb.png';
+import client3 from '../../assets/img/fc-client-wbc.jpeg';
 import client4 from '../../assets/img/foodcham-client-4.png';
 
 class Client extends Component{

@@ -46,9 +46,9 @@ export default class FeaturesBody  extends Component{
                 <section id="pro-top-banner-medium">
                 
                 <div className="top-banner-caption small-11">
-                    <h5 className="font_family_a font_size_d font_color_a">THE LIMETRAY SUITE</h5>
-                    <p className="font_family_a font_size_b">A complete solution for your restaurant’s<br />technology, operations & marketing needs.<br />All within an integrated framework.</p>
-                    <a href="#product-click" className="product-button font_family_a font_size_b">See All Products</a>
+                    <h5 className="font_family_a font_size_d font_color_a">FOODCHAM FEATURES</h5>
+                    <p className="font_family_a font_size_b">Digital ordering softwares offered by foodcham <br/>provides avariety of features.</p>
+                    <a href="products" className="product-button font_family_a font_size_b">See Products</a>
                 </div>
             </section>
             <div id="product-section-a">
@@ -56,14 +56,16 @@ export default class FeaturesBody  extends Component{
                  <div class="row">
                    <div class="small-12 columns text-center">
                      <ul class="list-inline product-menu">
-                        <Feature onClick={(item) => this.scrollToElement("feature1")} title="Click" src={img1} />
-                        <Feature onClick={(item) => this.scrollToElement("feature2")} title="Ace" src={img2} />
-                        <Feature onClick={(item) => this.scrollToElement("feature3")} title="Tap" src={img3} />
-                        <Feature onClick={(item) => this.scrollToElement("feature4")} title="Dine" src={img4} />
-                        <Feature onClick={(item) => this.scrollToElement("feature5")} title="Merge" src={img5} />
-                        <Feature onClick={(item) => this.scrollToElement("feature6")} title="Point" src={img6} />
-                        <Feature onClick={(item) => this.scrollToElement("feature7")} title="Reach" src={img7} />
-                        <Feature onClick={(item) => this.scrollToElement("feature8")} title="Loop" src={img8} />
+                        <Feature onClick={(item) => this.scrollToElement("feature1")} title="Cloud" src={img1} />
+                        <Feature onClick={(item) => this.scrollToElement("feature2")} title="Experience" src={img2} />
+                        <Feature onClick={(item) => this.scrollToElement("feature3")} title="Digital" src={img3} />
+                        <Feature onClick={(item) => this.scrollToElement("feature9")} title="Upselling" src={img8} />
+                        <Feature onClick={(item) => this.scrollToElement("feature4")} title="Management" src={img4} />
+                        <Feature onClick={(item) => this.scrollToElement("feature5")} title="Automated" src={img5} />
+                        <Feature onClick={(item) => this.scrollToElement("feature6")} title="Analytics" src={img6} />
+                        <Feature onClick={(item) => this.scrollToElement("feature7")} title="Updates" src={img7} />
+                        <Feature onClick={(item) => this.scrollToElement("feature8")} title="Support" src={img8} />
+
                         
                      </ul>
                    </div>
@@ -71,21 +73,23 @@ export default class FeaturesBody  extends Component{
            
             </div>
             <div id="product-box">
-                <FeaturesPoints id="feature1" title="INTERACTIVE MENU" icon={img1} src={featureImg1}>Categorising various menu groups and items so that customers do not have to scroll through a long list of items </FeaturesPoints>
+                <FeaturesPoints id="feature1" title="Cloud Based" icon={img1} src={featureImg1}>The Foodcham products are cloud based softwares providing an online interface for the restaurant operations.</FeaturesPoints>
 
-                <FeaturesPoints2 id="feature2" title="QUICK SEARCH" icon={img2} src={featureImg2}>Let your customers search for a specific item among differenr sub-menus </FeaturesPoints2>
+                <FeaturesPoints2 id="feature2" title="Better user experience" icon={img2} src={featureImg2}>Digital ordering by Foodcham provides a better user experience for fine dining food ordering.</FeaturesPoints2>
 
-                <FeaturesPoints id="feature3" title="FEEDBACK AND ANALYSIS" icon={img1}  src={featureImg1}>Never miss any important feedback, generate reports for accurate analysis and better understanding of cutomer behavior.</FeaturesPoints>
+                <FeaturesPoints id="feature3" title="Digital orders" icon={img1}  src={featureImg1}>Digital orders are easy to keep track of in a restaurant which also helps in the ordering operations in the restaurant.</FeaturesPoints>
 
-                <FeaturesPoints2 id="feature4" title="MAKE YOUR OWN STUFF" icon={img2} src={featureImg2}>Gamify the user experience of shopping and empower them to customise their food</FeaturesPoints2>
+                <FeaturesPoints2 id="feature9" title="Upselling of Orders" icon={img2} src={featureImg2}>Foodcham software provides an upselling of orders helping the restaurant present their personal preferences digitally</FeaturesPoints2>
 
-                <FeaturesPoints id="feature5" title="INTERNAL CUSTOMISAION" icon={img1}  src={featureImg1}>Enables customer to modify items with their tailored preferences</FeaturesPoints>
+                <FeaturesPoints id="feature4" title="Easy Management" icon={img2} src={featureImg2}>Foodcham provides an independent admin panel to the restaurant for easy management of orders and inventory remotely.</FeaturesPoints>
 
-                <FeaturesPoints2 id="feature6" title="TIMELY AND CORRECT ORDERS" icon={img2} src={featureImg2}>Prepare dishes timely and in the right order thanks to the clear and highly intutive Table Management System</FeaturesPoints2>
+                <FeaturesPoints2 id="feature5" title="Automated ordering" icon={img1}  src={featureImg1}></FeaturesPoints2>
 
-                <FeaturesPoints id="feature7" title=" FAST AND AUTOMATED ORDERS" icon={img1} src={featureImg1}>Efficient service increasing the rotation of customers per table and lessening the waiting time</FeaturesPoints>
+                <FeaturesPoints id="feature6" title="Overall Analytics" icon={img2} src={featureImg2}>Prepare dishes timely and in the right order thanks to the clear and highly intutive Table Management System</FeaturesPoints>
 
-                <FeaturesPoints2 id="feature8" title="USER DATA" icon={img2} src={featureImg2}>Maintains user's database and history for easy accesing, management, references and suggestions</FeaturesPoints2>
+                <FeaturesPoints2 id="feature7" title="Runtime Updates" icon={img1} src={featureImg1}>Efficient service increasing the rotation of customers per table and lessening the waiting time</FeaturesPoints2>
+
+                <FeaturesPoints id="feature8" title="24/7 Support" icon={img2} src={featureImg2}>Maintains user's database and history for easy accesing, management, references and suggestions</FeaturesPoints>
             </div>
         </div>
 

@@ -18,7 +18,7 @@ export default class Header_slider extends Component{
             <div className="col-xs-12 col-sm-5">
                 <div className="slide-text animated fadeInDown">
                     <h1 className="slide-title">Meet FoodCham</h1>
-                    <p>Powerful, yet easy to use, online ordering, reservation and management system for restaurants.</p>
+                    <p>User friendly and easy to use, digital ordering system for restaurants and the visitors in the restaurant.</p>
                     <p className="button-group">
                         <Link className="btn btn-default animated wobble" to="/features">See more features</Link>
                     </p>

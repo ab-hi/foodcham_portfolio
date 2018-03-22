@@ -13,38 +13,34 @@ export default class DemoBody extends Component{
                     <div className="container">
                         <div className="row flex-container">
                             <div className="col-sm-6 border-left wrap-horizontal">
-                                <h3>Storefront</h3>
+                                <h3>Digital Ordering Software</h3>
                                 <div className="col-sm-10 center-block wrap-top-xs">
                                     <img className="img-circle" src={img1} />
                                 </div>
                                 <div className="clearfix"></div>
                                 <br/><br/>
-                                <a className="btn btn-default btn-lg wrap-vertical-lg" href="https://demo.tastyigniter.com/" target="_blank" rel="">View Storefront</a>
+                                <a className="btn btn-default btn-lg wrap-vertical-lg" href="#" target="_blank" rel="">Digital Ordering Software</a>
                                 <ul className="list-unstyled" style={{marginTop: '2em'}}>
-                                    <li>Lorem ipsum dolor sit amet</li>
-                                    <li>mdsjvhkj</li>
-                                    <li>Lorem ipsum dolor sit amet</li>
-                                    <li>mdsjvhkj</li>
-                                    <li>Lorem ipsum dolor sit amet</li>
-                                    <li>mdsjvhkj</li>
+                                    <li>Enhanced user experience</li>
+                                    <li>Technical user ordering</li>
+                                    <li>Online updation of menu</li>
+                                    <li>Easy inventory management</li>
 
                                 </ul>
                             </div>
                             <div className="col-sm-6 border-left border-right wrap-horizontal">
-                                <h3>Administrator Panel</h3>
+                                <h3>Waiter Ordering Software</h3>
                                 <div className="col-sm-10 center-block wrap-top-xs">
                                     <img className="img-circle" src={img2} />
                                 </div>
                                 <div className="clearfix"></div>
                                 <br/><br/>
-                                <a className="btn btn-primary btn-lg wrap-vertical-lg" href="https://demo.tastyigniter.com/admin" target="_blank" rel="">View Administrator Panel</a>
+                                <a className="btn btn-primary btn-lg wrap-vertical-lg" href="#" target="_blank" rel="">Waiter Ordering Software</a>
                                 <ul className="list-unstyled" style={{marginTop: '2em'}}>
-                                <li>Lorem ipsum dolor sit amet</li>
-                                <li>mdsjvhkj</li>
-                                <li>Lorem ipsum dolor sit amet</li>
-                                <li>mdsjvhkj</li>
-                                <li>Lorem ipsum dolor sit amet</li>
-                                <li>mdsjvhkj</li>
+                                <li>Digital ordering interface</li>
+                                <li>Faster ordering service</li>
+                                <li>Automated ordering</li>
+                                <li>Easy to use</li>
 
                                 </ul>
                             </div>
