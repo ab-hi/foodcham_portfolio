@@ -3,7 +3,15 @@ import React from 'react';
 import AboutQA from './about-qa';
 import TeamMember from './team';
 
-import member1 from '../../assets/img/under-500-limetray.png';
+import member1 from '../../assets/img/team/ashish_gulati.jpg';
+import member2 from '../../assets/img/team/jasbir_singh.jpg';
+import member3 from '../../assets/img/team/mohit_puri.jpg';
+import member4 from '../../assets/img/team/jayesh_bidani.jpg';
+import member5 from '../../assets/img/team/navdeep.jpg';
+import member6 from '../../assets/img/team/abhishek_bansal.jpg';
+import member7 from '../../assets/img/team/himanshu_khosla.jpeg';
+
+
 import fc_about from '../../assets/img/fc-about.jpg';
 
 export default class AboutBody extends React.Component{
@@ -36,48 +44,13 @@ export default class AboutBody extends React.Component{
                                     in their restaurant. With Waiter Ordering Menu, the orders can be automated and monitored online with easy updation and management.
                                     </AboutQA>
                                 </div>
-                                // <div className="col-sm-5">
-                                //     <img src={fc_about} className="img-responsive" />
-                                // </div>
+                                <div className="col-sm-5">
+                                     <img src={fc_about} className="img-responsive" />
+                                 </div>
 
-                                // <br clear="both" />
+                                 <br clear="both" />
 
-                                // <AboutQA question="How can I set up Foodcham?">
-                                // Foodcham is a free, ready to use, customisable system that you can easily access without any technical knowledge or experience.
-                                // Just download and install the software and you’re ready to go.
-                                // </AboutQA>
-
-                                // <AboutQA question="How can I reach out to my customers?">
-                                // Add your menu to give your customers a breakdown of what they can order. They decide what they want, arrange a delivery or
-                                // collection and pay for their food. If they prefer, they can book a table online through the reservation function and your staff
-                                // will be able to view the booking and take care of your customer as soon as they walk through the door.
-                                // </AboutQA>
-
-                                // <AboutQA question="How can I reach out to my customers?">
-                                // Add your menu to give your customers a breakdown of what they can order. They decide what they want, arrange a delivery or
-                                // collection and pay for their food. If they prefer, they can book a table online through the reservation function and your staff
-                                // will be able to view the booking and take care of your customer as soon as they walk through the door.
-                                // </AboutQA>
-
-                                // <AboutQA>
-                                // You can also stay in contact with your customers through newsletters and send out emails offering discounts or targeted promotional
-                                // campaigns to increase revenue.
-                                // </AboutQA>
-
-                                // <AboutQA question="In conclusion:">
-                                // <ul>
-                                //     <li>Foodcham is a free, easy to use, customisable system.</li>
-                                //     <li>It gives you some amazing tools which allow you to manage your business.</li>
-                                //     <li>You can view summary reports to show you how your business is performing.</li>
-                                // </ul>
-                                // </AboutQA>
-
-                            //     <AboutQA>
-                            //     Foodcham is only going to get better with time; you really have nothing to lose and everything to gain.
-                            //     <a href="download.html">Download</a> the software today, or see the
-                            //     <a href="demo.html">demo</a> for a preview of how Foodcham can help shape the future success of your business
-                            //     </AboutQA>
-                            // </div>
+                        </div>
                         </div>
                         
                     </div>
@@ -89,14 +62,14 @@ export default class AboutBody extends React.Component{
                 <h3>Our Team</h3>
 
                     <div className="container">
-                        <TeamMember img={member1} name="Jasbir Singh Bhatia" designation="Co-Founder"/>
+                        <TeamMember img={member2} name="Jasbir Singh Bhatia" designation="Co-Founder"/>
                         <TeamMember img={member1} name="Ashish Gulati" designation="Co-Founder"/>
-                        <TeamMember img={member1} name="Navdeep Singh Oberoi" designation="Manager"/>
-                        <TeamMember img={member1} name="Abhishek Bansal" designation="Web Developer"/>
-                        <TeamMember img={member1} name="Shubham Aggarwal" designation="Web Developer"/>
-                        <TeamMember img={member1} name="Mohit Puri" designation="Android Developer"/>
-                        <TeamMember img={member1} name="Himanshu Khosla" designation="Web Developer"/>
-                        <TeamMember img={member1} name="Jayesh Bidani" designation="Techincal Support"/>
+                        <TeamMember img={member5} name="Navdeep Singh Oberoi" designation="Manager"/>
+                        <TeamMember img={member4} name="Jayesh Bidani" designation="Techincal Support"/>
+                        <TeamMember img={member5} name="Shubham Aggarwal" designation="Web Developer"/>
+                        <TeamMember img={member3} name="Mohit Puri" designation="Android Developer"/>
+                        <TeamMember img={member7} name="Himanshu Khosla" designation="Web Developer"/>
+                        <TeamMember img={member6} name="Abhishek Bansal" designation="Web Developer"/>
 
                     </div>
                     </div>

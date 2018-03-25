@@ -1,5 +1,6 @@
 import React from 'react';
 
+import {Link} from 'react-router-dom';
 
 export default class BlogContent extends React.Component{
     render(){
@@ -14,25 +15,28 @@ export default class BlogContent extends React.Component{
                                         <div className="row">
                                             <div className="col-sm-4">
                                                 <div className="post-image">
-                                                    <a href="blog/2017/11/how-look-local-authority-food.html">
+                                                    <Link to="/BlogDetail">
                                                     <img data-src={this.props.data_src}
                                                         src={this.props.src} alt=""                                    style={{maxWidth : '100%'}}
                                                     />
-                                                    </a>
+                                                    </Link>
                                                 </div>
                                             </div>
                         
                                             <div className="col-sm-8">
                                                 <div className="post-preview">
-                                                    <a href="blog/2017/11/how-look-local-authority-food.html">
+                                                    <Link to={{ pathname: `/BlogDetail/${this.props.post_title}`, state: { title: this.props.post_title, post_date: this.props.pub_date, brief: this.props.brief, content: this.props.children} }}>
                                                         <h2 className="post-title">
                                                             {this.props.post_title}
                                                         </h2>
-                                                        <h3 className="post-excerpt">{this.props.children}</h3>
-                                                    </a>
+                                                        <h3 className="post-excerpt">{this.props.brief}</h3>
+                                                    </Link>
                                                     <p className="post-meta">
                                                         Posted
-                                                        in                                                           <a href="about.html">{this.props.category}</a>,                                                                                                                                              on {this.props.pub_date}
+                                                        in &nbsp;                                                           
+                                                        <a href="about.html">{this.props.category}</a>,                                                                        
+                                                        on   &nbsp;
+                                                         {this.props.pub_date}
                                                     </p>
                                                 </div>
                                             </div>

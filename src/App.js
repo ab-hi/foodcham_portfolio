@@ -13,6 +13,7 @@ import Blog from './components/blog/blog';
 import About from './components/about/about';
 import Footer from './components/footer';
 import Demo from './components/demo/demo';
+import BlogDetail from './components/blog/blogDetailView';
 
 import './App.css';
 
@@ -29,6 +30,7 @@ class App extends Component {
             <Route path ="/blog" component={Blog} />
             <Route path ="/about" component={About} />
             <Route path ="/products" component={Demo} />
+            <Route path ="/BlogDetail" component={BlogDetail} />
             <Footer />
         </div>
         

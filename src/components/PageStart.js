@@ -11,12 +11,12 @@ export default class PageStart extends Component{
                                 {this.props.title}
                             </h1>
                         </div>
-                        <div className="col-xs-5 text-right">
+                        {/* <div className="col-xs-5 text-right">
                             <p className="page-header-account-link">
                                 
                                 <a className="account-login" href="https://tastyigniter.com/member/login/">Customer Area</a>
                             </p>
-                        </div>
+                        </div> */}
                     </div>
                 </div>          
             </div>

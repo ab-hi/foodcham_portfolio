@@ -9,7 +9,7 @@ export default class DemoBody extends Component{
             <section id="site-content">
            
 
-                <div className="margin-horizontal-sm border-horizontal text-center">
+                <div className="margin-horizontal-sm border-horizontal text-center products">
                     <div className="container">
                         <div className="row flex-container">
                             <div className="col-sm-6 border-left wrap-horizontal">
@@ -20,11 +20,11 @@ export default class DemoBody extends Component{
                                 <div className="clearfix"></div>
                                 <br/><br/>
                                 <a className="btn btn-default btn-lg wrap-vertical-lg" href="#" target="_blank" rel="">Digital Ordering Software</a>
-                                <ul className="list-unstyled" style={{marginTop: '2em'}}>
-                                    <li>Enhanced user experience</li>
-                                    <li>Technical user ordering</li>
-                                    <li>Online updation of menu</li>
-                                    <li>Easy inventory management</li>
+                                <ul className="list-unstyled list-group" style={{marginTop: '2em'}}>
+                                    <li className="list-group-item">Enhanced user experience</li>
+                                    <li className="list-group-item">Technical user ordering</li>
+                                    <li className="list-group-item">Online updation of menu</li>
+                                    <li className="list-group-item">Easy inventory management</li>
 
                                 </ul>
                             </div>
@@ -36,11 +36,11 @@ export default class DemoBody extends Component{
                                 <div className="clearfix"></div>
                                 <br/><br/>
                                 <a className="btn btn-primary btn-lg wrap-vertical-lg" href="#" target="_blank" rel="">Waiter Ordering Software</a>
-                                <ul className="list-unstyled" style={{marginTop: '2em'}}>
-                                <li>Digital ordering interface</li>
-                                <li>Faster ordering service</li>
-                                <li>Automated ordering</li>
-                                <li>Easy to use</li>
+                                <ul className="list-unstyled list-group" style={{marginTop: '2em'}}>
+                                <li className="list-group-item">Digital ordering interface</li>
+                                <li className="list-group-item">Faster ordering service</li>
+                                <li className="list-group-item">Automated ordering</li>
+                                <li className="list-group-item">Easy to use</li>
 
                                 </ul>
                             </div>
