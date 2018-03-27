@@ -24,11 +24,12 @@ export default class Home extends Component{
                     <Header_slider />
                 </div>
                 <Parallax img = {parallax_img1} >
-                    Lorem ipsun dolor sit amet Lorem ipsun dolor sit amet Lorem ipsun dolor sit amet Lorem ipsun dolor sit amet Lorem ipsun dolor sit amet Lorem ipsun dolor sit
+                Foodcham digital menu offers complete package of features allowing restaurants to operate more efficiently and bring a new interactive experience for staff and customers alike. In addition, the features will allow restaurants to change menu according to the changing requirements.
+
                 </Parallax>
                 <Home_features />
                 <Parallax img = {parallax_img2}>
-                    Lorem ipsun dolor sit amet Lorem ipsun dolor sit amet Lorem ipsun dolor sit amet Lorem ipsun dolor sit amet Lorem ipsun dolor sit
+                We as a team work with to learn and experience the taste of entrepreneurship. Working on our vision of Foodcham in priority.
                 </Parallax>
 
                 <Partners />

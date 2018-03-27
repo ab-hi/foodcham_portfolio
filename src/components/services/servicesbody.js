@@ -66,16 +66,16 @@ export default class ServicesBody extends Component{
                                             </p>
                                         </div>
                                         <ul className="list-group">
-                                            <li className="list-group-item"><b>Unlimited</b> Customers &amp; Orders</li>
-                                            <li className="list-group-item"><b>Unlimited</b> Menu Items</li>
-                                            <li className="list-group-item">Community <b>Support</b> Forum</li>
-                                            <li className="list-group-item"><b>Desktop &amp; Mobile</b> Ordering Site</li>
-                                            <li className="list-group-item"><b>Coupon</b> Engine</li>
-                                            <li className="list-group-item">Accept <b>Credit Cards</b></li>
-                                            <li className="list-group-item"><b>Marketing &amp; Reporting</b> Tools</li>
+                                            <li className="list-group-item"><b>Increased</b> User Experience</li>
+                                            <li className="list-group-item">Waiter <b>Independancy</b></li>
+                                            <li className="list-group-item"><b>Upselling</b> of Orders</li>
+                                            <li className="list-group-item">Detailed <b>Order Reports</b></li>
+                                            <li className="list-group-item">Easy <b>Order Management</b></li>
+                                            <li className="list-group-item"><b>Integrated Feedback </b>system</li>
+                                            <li className="list-group-item">Social Media <b>Marketing</b></li>
                                             <li className="list-group-item">Administration <b>Dashboard</b></li>
                                         </ul>
-                                        <a href="download.html" className="btn btn-primary wrap-vertical-lg">Download</a>
+                                        <a href="download.html" className="btn btn-primary wrap-vertical-lg">Subscribe</a>
                                     </div>
                                 </div>
                                 
@@ -89,16 +89,16 @@ export default class ServicesBody extends Component{
                                             </p>
                                         </div>
                                         <ul className="list-group">
-                                            <li className="list-group-item">All self-hosted features</li>
-                                            <li className="list-group-item"><b>Cloud</b> Hosting</li>
-                                            <li className="list-group-item"><i className="fa fa-times"></i> 24/7 <b>Premium Support</b></li>
-                                            <li className="list-group-item">Software <b>Installation</b></li>
+                                            <li className="list-group-item">Tablet Ordering</li>
+                                            <li className="list-group-item">No <b>Waiter Pads</b></li>
+                                            <li className="list-group-item"><b>Cloud</b> Menu</li>
+                                            <li className="list-group-item">Faster <b>Orders</b></li>
                                             <li className="list-group-item">Software <b>Upgrades</b></li>
-                                            <li className="list-group-item">Automatic <b>Backups</b></li>
-                                            <li className="list-group-item"><b>TLS (SSL)</b> Included</li>
-                                            <li className="list-group-item"><b>Database/FTP</b> access</li>
+                                            <li className="list-group-item">Easy <b>Order Management</b></li>
+                                            <li className="list-group-item">Social Media <b>Marketing</b></li>
+                                            <li className="list-group-item">Administration <b>Dashboard</b></li>
                                         </ul>
-                                        <a href="member/register/monthly-hosting-solution/index.html" className="btn btn-primary wrap-vertical-lg">Sign Up</a>
+                                        <a href="member/register/monthly-hosting-solution/index.html" className="btn btn-primary wrap-vertical-lg">Subscribe</a>
                                     </div>
                                 </div>
                             </div>
