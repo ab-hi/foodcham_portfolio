@@ -15,6 +15,25 @@ import logo from '../assets/img/foodcham_banner-01.png';
 
 export default  class Navbar extends Component{
 
+    constructor(props){
+        super(props)
+
+        this.state={
+            open:false
+        }
+
+        this.onOpenModal= this.onOpenModal.bind(this);
+    }
+
+   
+    onOpenModal = () => {
+        this.setState({ open: true });
+    };
+
+    onCloseModal = () =>{
+        this.setState({open:false});
+    }
+    
   
     render(){        
         return(
@@ -43,7 +62,8 @@ export default  class Navbar extends Component{
                                         <li className=""><NavLink to="/services">Services</NavLink></li>
                                     
                                         <li className=""><NavLink to="/blog">Blog</NavLink></li>
-                                        <li className="footer-contact"> <ModalBox /></li>
+                                        <li className="footer-contact"> <div onClick={this.onOpenModal} style={{color:'white'}} className="btn-download btn-lg btn btn-primary btn-wire">Join Us</div></li>
+                                        <ModalBox onClose={this.onCloseModal} open={this.state.open}/> 
                                     </ul>
                                 </div>
                             </div>

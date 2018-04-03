@@ -6,13 +6,12 @@ import TeamMember from './team';
 import member1 from '../../assets/img/team/ashish_gulati.jpg';
 import member2 from '../../assets/img/team/jasbir_singh.jpg';
 import member3 from '../../assets/img/team/mohit_puri.jpg';
-import member4 from '../../assets/img/team/jayesh_bidani.jpg';
 import member5 from '../../assets/img/team/navdeep.jpg';
 import member6 from '../../assets/img/team/abhishek_bansal.jpg';
 import member7 from '../../assets/img/team/himanshu_khosla.jpeg';
 
 
-import fc_about from '../../assets/img/fc-about.jpg';
+import fc_about from '../../assets/img/fc-about.png';
 
 export default class AboutBody extends React.Component{
     render(){
@@ -65,7 +64,6 @@ export default class AboutBody extends React.Component{
                         <TeamMember img={member2} name="Jasbir Singh Bhatia" designation="Co-Founder"/>
                         <TeamMember img={member1} name="Ashish Gulati" designation="Co-Founder"/>
                         <TeamMember img={member5} name="Navdeep Singh Oberoi" designation="Manager"/>
-                        <TeamMember img={member4} name="Jayesh Bidani" designation="Techincal Support"/>
                         <TeamMember img={member5} name="Shubham Aggarwal" designation="Web Developer"/>
                         <TeamMember img={member3} name="Mohit Puri" designation="Android Developer"/>
                         <TeamMember img={member7} name="Himanshu Khosla" designation="Web Developer"/>

@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 import client1 from '../../assets/img/fc-client-thc.jpg';
 import client2 from '../../assets/img/fc-client-sb.png';
-import client3 from '../../assets/img/fc-client-wbc.jpeg';
+import client3 from '../../assets/img/fc-client-wbc.png';
 
 class Client extends Component{
     render(){

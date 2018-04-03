@@ -2,7 +2,31 @@ import React ,{ Component } from 'react';
 
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 
+import ModalBox from './modal';
+
+
 export default class Footer extends Component{
+
+    
+    constructor(props){
+        super(props)
+
+        this.state={
+            open:false
+        }
+
+        this.onOpenModal= this.onOpenModal.bind(this);
+    }
+
+   
+    onOpenModal = () => {
+        this.setState({ open: true });
+    };
+
+    onCloseModal = () =>{
+        this.setState({open:false});
+    }
+
     render(){
         return(
                 <footer id="site-footer">
@@ -27,8 +51,9 @@ export default class Footer extends Component{
                                 <div className="col-sm-4 pull-right text-right hidden-xs">
                                     <div className="footer-contact">
                                         <h4>Still Have Questions?</h4>
-                                        <Link className="btn btn-primary btn-wire btn-lg" to="/contact">Contact Us</Link>
+                                        <a className="btn btn-primary btn-wire btn-lg" onClick={this.onOpenModal} style={{cursor: 'pointer'}}>Contact Us</a>
                                     </div>
+                                    <ModalBox open={this.state.open} onClose={this.onCloseModal} />
                                 </div>
                             </div>
                         </div>            

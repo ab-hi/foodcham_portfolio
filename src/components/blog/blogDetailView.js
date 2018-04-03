@@ -20,8 +20,9 @@ export default class BlogDetail extends Component{
         console.log(this.props.location.state)
         return(
             <div>
-                <div className="header-backdrop">
-                    <div className="blog-header">
+                
+                    <div className="blog-header" style= {{backgroundImage: `url(${this.state.bg_img})`, backgroundSize:'cover'}} >
+                    <div className="header-backdrop">
                         <div className="container">
                             <div className="row">
                                 <div className="col-md-11 col-md-offset-1 col-lg-10 col-lg-offset-1">

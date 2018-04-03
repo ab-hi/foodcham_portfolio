@@ -13,6 +13,7 @@ import Parallax from './parallax';
 
 import parallax_img1 from '../assets/img/fctablet.jpg';
 import parallax_img2 from '../assets/img/foodchamteam.jpg';
+import timeline from '../assets/img/timeline-01.png';
 
 
 export default class Home extends Component{
@@ -28,10 +29,11 @@ export default class Home extends Component{
 
                 </Parallax>
                 <Home_features />
-                <Parallax img = {parallax_img2}>
-                We as a team work with to learn and experience the taste of entrepreneurship. Working on our vision of Foodcham in priority.
-                </Parallax>
-
+                <div className="row cta">
+                    <div className="col-sm-8 col-sm-offset-2">
+                        <img src={timeline} className="img-responsive" />
+                    </div>
+                </div>
                 <Partners />
                 <Clients />
                 <div className="home-cfa margin-top-sm">

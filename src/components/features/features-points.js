@@ -1,7 +1,29 @@
 import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
 
+import ModalBox from '../modal';
+
+
 export default class FeaturesPoints extends Component{
+    constructor(props){
+        super(props)
+
+        this.state={
+            open:false
+        }
+
+        this.onOpenModal= this.onOpenModal.bind(this);
+    }
+
+   
+    onOpenModal = () => {
+        this.setState({ open: true });
+    };
+
+    onCloseModal = () =>{
+        this.setState({open:false});
+    }
+    
     render(){
         return(
             <div className="limetray-products" id={this.props.id}>
@@ -19,7 +41,8 @@ export default class FeaturesPoints extends Component{
                                 <div>
                                     <h2 className="font_family_a font_color_b font_size_d">{this.props.children}</h2>
                                 </div>
-                                <div className="product-desc-btn"><Link to="/features" className="font_family_a font_size_a color-lime text-uppercase">Get Started</Link></div>
+                                <div className="product-desc-btn"><a className="font_family_a font_size_a color-lime text-uppercase" onClick={this.onOpenModal} style={{cursor:'pointer'}}>Get Started</a></div>
+                                <ModalBox open={this.state.open} onClose={this.onCloseModal} />
                             </div>
                     </div>
 

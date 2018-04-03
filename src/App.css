@@ -48,6 +48,19 @@ background : radial-gradient(circle farthest-side at right bottom, #E7B02F 5%,#e
   min-height: 300px;
   background-attachment: fixed;
   background-size: cover;
+  display: flex;
+  position: relative;
+}
+
+.parallax::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: block;
+  background: rgba(0,0,0,0.35);
 }
 
 body{
@@ -65,8 +78,9 @@ body{
 .team-member img{
   border-radius: 100%;
   width: 200px;
-  height: 200px;
+  height: 200px;  
 }
+
 
 #site-header .navbar-default .navbar-nav > li > a{
   background-color: transparent;
@@ -139,4 +153,65 @@ body{
 
 .header-backdrop{
   position: relative;
+}
+
+.contact-form input{
+  transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+  display: inline-block;
+  width: 45%;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.3333333;
+  border-width: 2px;
+  border-color: #e8e8e8;
+  border-radius: 3px;
+  box-shadow: none;
+  height: 46px;
+  margin:10px;
+  box-sizing: border-box
+  
+}
+
+.contact-form button{
+  user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  touch-action: manipulation;
+  cursor: pointer;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  font-weight: 400;
+  margin-bottom: 0;
+  display: block;
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.3333333;
+  border-radius: 6px;
+  padding-left: 50px;
+  padding-right: 50px;
+  border-color: #1ab1ed;
+  background-color: transparent;
+  border-width: 2px;
+  color: #1ab1ed;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+@media only screen and (max-width: 768px) {
+  .contact-form input{
+    width: 100%;
+  }
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
 }

@@ -3,13 +3,15 @@ import React from 'react';
 import BlogContent from './blogcontent'
 import BlogHeader from './blogheader'
 
+import blog1_img from '../../assets/img/blog-test.jpg';
+
 export default class Blog extends React.Component{
     render(){
         return(
             <div>
                 <BlogHeader />
 
-                <BlogContent post_title="How to Look Like THE Local Authority on Food" data_src="How to Look Like THE Local Authority on Food.jpg" src="../../assets/uploads/public/59d/f64/c7d/59df64c7d4cfc289033637.jpg" pub_date="Nov 09, 2017" category="Restaurant Marketing" brief="We all want to be seen as an expert in what we do. It doesn’t matter what type of business you run, knowing that you are a go to place for advice, or for service, is a pretty great feeling.">
+                <BlogContent post_title="How to Look Like THE Local Authority on Food" data_src="How to Look Like THE Local Authority on Food.jpg" src={blog1_img} pub_date="Nov 09, 2017" category="Restaurant Marketing" brief="We all want to be seen as an expert in what we do. It doesn’t matter what type of business you run, knowing that you are a go to place for advice, or for service, is a pretty great feeling.">
                                         {`<p>We all want to be seen as an expert in what we do. It doesn’t matter what      type of business you run, knowing that you are a go to place for advice, or for   service, is a pretty great feeling.</p>
                                         <p>When it comes to food, this is no different. As a restaurant, there is a good chance that you want to be the local authority on all things food. But the trouble is, where do you start? It is great to have all the knowledge, but you need to find a way to show others what you know.</p>
                                         <p>We are here to help and we have put together some of the best ways that you can look like the local authority on food. </p>
@@ -24,7 +26,7 @@ export default class Blog extends React.Component{
                                         <p>As you can see there are a number of ways that you can make sure that you are the go to place. All you  need to do now is make sure that you have the food and service to match all those things that you say you can do!</p>`}
                 </BlogContent>
 
-                <BlogContent post_title="Essential Components on Your Restaurant Website" data_src="Essential Components on Your Restaurant Website.jpg" src="storage/app/uploads/public/59d/f63/3c7/59df633c7367c820941441.jpg" pub_date="Nov 02, 2017" category="RTastyIgniter Tips" brief="Any business knows that to get ahead in this modern world, you need to have a website. For restaurants, their website is there to entice people to come and eat with them.">
+                <BlogContent post_title="Essential Components on Your Restaurant Website" data_src="Essential Components on Your Restaurant Website.jpg" src={blog1_img} pub_date="Nov 02, 2017" category="RTastyIgniter Tips" brief="Any business knows that to get ahead in this modern world, you need to have a website. For restaurants, their website is there to entice people to come and eat with them.">
                     
                 </BlogContent>
 

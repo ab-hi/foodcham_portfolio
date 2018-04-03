@@ -15,7 +15,7 @@ class Partner extends Component{
 export default class Partners extends Component{
     render(){
         return(
-            <div className="row">
+            <div>
                 <div className="home-cfa margin-top-sm"> 
                     <h4 className="font_color_d font_size_b">Easy integrations with our partners</h4>
                     <ul className="list-inline margin-top-sm">
