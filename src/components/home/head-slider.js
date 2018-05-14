@@ -24,7 +24,7 @@ export default class Header_slider extends Component{
                     </p>
                 </div>
             </div>
-            <div className="col-xs-8 col-sm-6 col-sm-offset-1 m-top-5">
+            <div className="col-xs-12 col-sm-6 col-sm-offset-1 m-top-5">
                 <div className="animated lightSpeedIn">
                     <img src={img} />
                 </div>

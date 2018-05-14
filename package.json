@@ -2,7 +2,7 @@
   "name": "foodcham_portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ab-hi.github.io/foodcham_live",
+  "homepage": "http://foodcham.com/",
   "dependencies": {
     "axios": "^0.17.1",
     "bootstrap-without-jquery": "^1.0.5",

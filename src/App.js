@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 import logo from './logo.svg';
 
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+import { HashRouter as Router, Route, Link } from 'react-router-dom';
 
 import Navbar from './components/navbar';
 
@@ -13,7 +13,10 @@ import Blog from './components/blog/blog';
 import About from './components/about/about';
 import Footer from './components/footer';
 import Demo from './components/demo/demo';
-import BlogDetail from './components/blog/blogDetailView';
+// import BlogDetail from './components/blog/blogDetailView';
+import Blog1 from './components/blog/blog1';
+import Blog2 from './components/blog/blog2';
+import Blog3 from  './components/blog/blog3';
 
 import './App.css';
 
@@ -30,7 +33,9 @@ class App extends Component {
             <Route path ="/blog" component={Blog} />
             <Route path ="/about" component={About} />
             <Route path ="/products" component={Demo} />
-            <Route path ="/BlogDetail" component={BlogDetail} />
+            <Route path ="/Blogs/8_effective_ways_to_do_social_media_marketing_for_restaurants" component={Blog1} />
+            <Route path ="/Blogs/5_Reasons_You_Need_a_Digital_Menu_Board" component={Blog2} />
+            <Route path ="/Blogs/Digital_menus_help_for_the_waiters" component={Blog3} />
             <Footer />
         </div>
         

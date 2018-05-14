@@ -15,9 +15,9 @@ export default class BlogContent extends React.Component{
                                         <div className="row">
                                             <div className="col-sm-4">
                                                 <div className="post-image">
-                                                    <Link to={{ pathname: `/BlogDetail/${this.props.post_title}`, state: { title: this.props.post_title, post_date: this.props.pub_date, brief: this.props.brief, content: this.props.children, bg_img: this.props.src} }}>
-                                                    <img data-src={this.props.data_src}
-                                                        src={this.props.src} alt=""                                    style={{maxWidth : '100%'}}
+                                                    <Link to={`${this.props.link}`}>
+                                                        <img data-src={this.props.data_src}
+                                                        src={this.props.src} alt=""                        style={{maxWidth : '100%'}}
                                                     />
                                                     </Link>
                                                 </div>
@@ -25,7 +25,7 @@ export default class BlogContent extends React.Component{
                         
                                             <div className="col-sm-8">
                                                 <div className="post-preview">
-                                                    <Link to={{ pathname: `/BlogDetail/${this.props.post_title}`, state: { title: this.props.post_title, post_date: this.props.pub_date, brief: this.props.brief, content: this.props.children, bg_img: this.props.src} }}>
+                                                    <Link to={`${this.props.link}`}>
                                                         <h2 className="post-title">
                                                             {this.props.post_title}
                                                         </h2>
@@ -34,7 +34,7 @@ export default class BlogContent extends React.Component{
                                                     <p className="post-meta">
                                                         Posted
                                                         in &nbsp;                                                           
-                                                        <a href="about.html">{this.props.category}</a>,                                                                        
+                                                        <a >{this.props.category}</a>,                                                                        
                                                         on   &nbsp;
                                                          {this.props.pub_date}
                                                     </p>

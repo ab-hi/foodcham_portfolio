@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 import logo_1 from "../../assets/img/foodcham-tie-up-ambrane.jpg";
-import logo_2 from "../../assets/img/foodcham-tie-up-sparktech.jpg";
+import logo_2 from "../../assets/img/foodcham-tie-up-sparktech.png";
 
 class Partner extends Component{
 

@@ -106,9 +106,9 @@ body{
   display: none;
 }
 
-.carousel .col-md-offset-3{
+/* .carousel .col-md-offset-3{
   margin-left: 25% !important;
-}
+} */
 
 .carousel .thumb{
   border: none;
@@ -206,12 +206,74 @@ body{
   .contact-form input{
     width: 100%;
   }
+
+  #site-header .navbar-header .navbar-brand{
+    width: 200px
+  }
+
+  .Modal-modal-0-1-3{
+    margin-top: 50%;
+  }
+
+  .slide p{
+    font-size: 1em;
+  }
+
+  #site-footer{
+    top: 100%;
+  }
+
+  body{
+    margin-bottom: 30px;
+  }
+  
+  .team-member img{
+    width: 100%;
+    height: 100%;
+  }
 }
 
 input[type=number]::-webkit-inner-spin-button, 
 input[type=number]::-webkit-outer-spin-button { 
     -webkit-appearance: none;
     -moz-appearance: none;
-    appearance: none;
     margin: 0; 
+}
+
+
+.hitxt {
+  font-style: italic;
+  font-size: 24px;
+  display: inline-block;
+  text-align: center;
+  color: #4a8800;
+  line-height: 38px;
+  width: 100%;
+  position: relative;
+  padding: 9px 0 13px;
+  margin: 15px 0 35px;
+}
+
+.hitxt:before {
+  bottom: 0;
+  width: 100px;
+  background: #b5bec7;
+  position: absolute;
+  content: '';
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  height: 2px;
+}
+
+.hitxt:after {
+  top: 0;
+  width: 100px;
+  background: #b5bec7;
+  position: absolute;
+  content: '';
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  height: 2px;
 }
