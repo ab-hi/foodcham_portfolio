@@ -11,7 +11,10 @@ export default class Blog extends React.Component{
     render(){
         return(
             <div>
-                <BlogHeader />
+                <BlogHeader heading="Restaurant news, articles and information."/>
+
+                <BlogContent post_title="Humans of Foodcham"  src={blog3_img} pub_date="May 16, 2018" category="Meeting the people" brief="" link="/Blogs/HumansofFC">
+                </BlogContent>   
 
                 <BlogContent post_title="8 effective ways to do social media marketing for restaurants" src={blog1_img} pub_date="April 28, 2018" category="Restaurant Marketing" brief="MARKETING is a tough yet a must-know concept to manage any business these days. And when it comes to the restaurant business, you cannot afford to sit back and watch the show." link ="/Blogs/8_effective_ways_to_do_social_media_marketing_for_restaurants">
                 </BlogContent>

@@ -11,7 +11,7 @@ export default class BlogHeader extends React.Component{
                             <div className="row">
                                 <div className="col-md-11 col-md-offset-1 col-lg-10 col-lg-offset-1">
                                     <div className="blog-heading text-center">
-                                        <h2 className="animated bounceIn">Restaurant news, articles and information.</h2>
+                                        <h2 className="animated bounceIn">{this.props.heading}</h2>
                                         <hr className="small" />
                                     </div>
                                 </div>
