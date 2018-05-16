@@ -2,7 +2,7 @@ import React from 'react';
 
 import BlogContent from './blogcontent';
 import BlogHeader from './blogheader';
-import blog3_img from '../../assets/img/blog_waiters.jpg';
+import blog3_img from '../../assets/img/team/himanshu_khosla.jpeg';
 
 
 

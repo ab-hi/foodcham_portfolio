@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 
-import blog_image from '../../assets/img/5reasons.png';
+import blog_image from '../../assets/img/foodcham_bg.jpg';
 
 export default class Blog4 extends Component{
     render(){
